@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
@@ -201,7 +202,9 @@
  <h1>Scan My Code</h1>
 <br/>
 <br/>
-
+ <center>
+ <img src=qrcode.JPG width=300 height=300 />
+ </center>
 <br/>
 </section>
 
@@ -225,7 +228,19 @@
  <h1>Ans</h1>
 <br/>
 <br/>
-<br/>
+<right>
+ .1    פרטו שלושה הבדלים עיקריים בין ,web1 web2 ו-
+ web3 – היעזרו בחומר שנלמד בהרצאות ובאינטרנט.
+ מומלץ בעברית אך לא חובה.
+ .2    הסבירו את ההבדלים שצוינו בשאלה 1 על ידי דוגמה של תרחיש שימוש case( .)use לדוגמא- חיפוש השאילתה
+ "תופעות לוואי של תרופות" יראה בצורה מסוימת בweb1-
+ ובצורה אחרת ב.web3-
+ אני נועה
+</right>
+ <br/>
+
+ <br/>
+ <br/>
 </section>
 
 <section id="contact" class="section">
@@ -245,9 +260,34 @@
 <br/>
 <br/>
 <br/>
-contact me
+<h3>contact me<h3/>
 <br/>
 <br/>
+ <div class="container">
+  <form action="action_page.php">
+
+   <label for="fname">First Name</label>
+   <input type="text" id="fname" name="firstname" placeholder="Your name..">
+   <br/>
+   <label for="lname">Last Name</label>
+   <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+   <br/>
+   <label for="country">Country</label>
+   <select id="country" name="country">
+    <option value="australia">Australia</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+   </select>
+   <br/>
+   <label for="subject">Subject</label>
+   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+   <br/>
+   <br/>
+   <a href="mailto:noa85magrisso@gmail.com">שלח
+
+  </form>
+ </div>
+
 <br/>
 </section>
 
