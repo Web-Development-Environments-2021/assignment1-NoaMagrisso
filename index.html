@@ -9,7 +9,7 @@
 
   .navbar {
    overflow: hidden;
-   background-color: #333;
+   background-color: rosybrown;
    position: fixed;
    top: 0;
    width: 100%;
@@ -21,15 +21,15 @@
    display: block;
    color: #f2f2f2;
    text-align: center;
-   padding: 20px 16px;
+   padding: 8px 100px;
    text-decoration: cornsilk;
-   font-size: 25px;
+   font-size: 22px;
    font-family: "Bookman Old Style";
   }
 
   .navbar a:hover {
-   background: #ddd;
-   color: fuchsia;
+   background: #dddddd;
+   color: #333333;
   }
 
   .main {
@@ -170,6 +170,16 @@
   }
  </style>
 
+ <script src="https://cdn.tiny.cloud/1/egwrbl3kc59mi6dvuq2b7tvwqt7hh4mh7g3t8z2o28b4wiq1/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+ <script>
+  tinymce.init({
+   selector: "#subject",
+   plugins: "emoticons",
+   toolbar: "emoticons",
+   toolbar_location: "bottom",
+   menubar: false
+  });
+ </script>
 
 </head>
 
@@ -199,10 +209,10 @@
  <br/>
 
 <center>
- <form>
+ <form id="#form">
   <label for="lang-switch">
-   <span lang="he">בחר שפה</span>
-   <span lang="en">Choose Language</span>
+   <span lang="he"> בחר שפה</span>
+   <span lang="en">Choose Language </span>
   </label>
   <select id="lang-switch">
    <option value="en">English</option>
@@ -392,17 +402,17 @@
   <TR>
    <TD>
     <div class="zoom">
-     <img src=casino.jpeg width=230 height=320 />
+     <img src=casino.jpeg width=200 height=280 />
     </div>
    </TD>
    <TD>
     <div class="zoom">
-     <img src=grandpa_grandma_youngs.jpeg width=230 height=320 />
+     <img src=grandpa_grandma_youngs.jpeg width=200 height=280 />
     </div>
    </TD>
    <TD>
     <div class="zoom">
-     <img src=grandpa_grandma_dancing.jpeg width=230 height=320 />
+     <img src=grandpa_grandma_dancing.jpeg width=200 height=280 />
     </div>
    </TD>
   </TR>
@@ -431,17 +441,17 @@
   <TR>
    <TD>
     <div class="zoom">
-     <img src=grandpa_army.jpeg width=230 height=320 />
+     <img src=grandpa_army.jpeg width=200 height=280 />
     </div>
    </TD>
    <TD>
     <div class="zoom">
-     <img src=me_young.jpeg width=230 height=320 />
+     <img src=me_young.jpeg width=200 height=280 />
     </div>
    </TD>
    <TD>
     <div class="zoom">
-     <img src=grandpa_grandma_dancing_olders.jpeg width=230 height=320 />
+     <img src=grandpa_grandma_dancing_olders.jpeg width=200 height=280 />
     </div>
    </TD>
   </TR>
@@ -700,7 +710,7 @@
  <h1>Scan My Code</h1>
  <br/>
  <center>
-  <img src=qrcode.JPG width=300 height=300 />
+  <img src=qrcode.JPG width=250 height=250 />
  </center>
  <br/>
 </section>
@@ -708,14 +718,7 @@
 <section id="spa" class="section">
  <br/>
  <br/>
- <br/>
- <br/>
- <br/>
  <h1>Ans</h1>
- <br/>
- <br/>
- <br/>
- <br/>
  <br/>
  <center>
   <p>
@@ -725,7 +728,7 @@
    <br/>
    1. להלן שלושה הבדלים עיקריים בין web1, web2, web3:
    <br/>
-  <TABLE border=4 width=200px align="center">
+  <TABLE border=4 width=800px align="center">
    <TR>
     <TD>
      <center>
@@ -750,44 +753,96 @@
    </TR>
    <TR>
     <TD>
-     aaa
+     <center>
+     קריאה, כתיבה ובעלות על קהילות ואתרים
+     </center>
     </TD>
     <TD>
-     aa
+     <center>
+     קריאה, כתיבה ויצירת תוכן. לכן משתמשים הצטרפו לפלטפורמות חברתיות אשר הפכו לגדולות בגלל התוכן שנוצר
+     כלומר יש גם שימוש של תרומה, יצירת פרופיל באתר, השארת הערות וביקורות
+     </center>
     </TD>
     <TD>
-     a
+     <center>
+     קריאה וקבלת מידע
+     </center>
     </TD>
     <TD>
-     הבדל 1
+     <center>
+     סוג שימוש
+     </center>
     </TD>
    </TR>
   <TR>
    <TD>
+    <center>
     bbb
+    </center>
    </TD>
    <TD>
-    bb
+    <center>
+    כמות גדולה של אנשים שמייצרים תוכן
+    כבר לא מדובר באתרים אישים ובלוגים
+    קהילות, שיתופי פעולה ומדיה חברתית
+    </center>
    </TD>
    <TD>
-    b
+    <center>
+    המספר מצומצם של אנשים כתבו תוכן ודפי אינטרנט עבור כמות גדולה של אנשים שהם צרכני אינטרנט
+    </center>
    </TD>
    <TD>
-    הבדל 2
+    <center>
+    יוצרי התוכן
+    </center>
    </TD>
   </TR>
   <TR>
    <TD>
-    ccc
+    <center>
+    האינטרנט הזה כולל AI ו- ML שמעבדים תוכן כמו "מוח גלובלי" כאשר הנתונים מחוברים בצורה קונטקסטואלית ורעיונית
+    </center>
    </TD>
    <TD>
-    cc
+    <center>
+    מערכות ניהול תוכן לקישורים המבוססים על "תיוג" של תוכן אתר באמצעות מילות מפתח
+    </center>
    </TD>
    <TD>
-    c
+    <center>
+    לא הייתה אפשרות לעבור מדף אחד לדף אחר לפי תוכן והקשר, אלא מדובר באינציקלופדיה דיגיטלית ענקית
+    </center>
    </TD>
    <TD>
-    הבדל 3
+    <center>
+    היפר-קישורים/מעבר בין דפי האינטרנט
+    </center>
+   </TD>
+  </TR>
+  <TR>
+   <TD>
+    <center>
+    הפלטפורמות הינן מבוזרות, כמעט אנונימיות. כלומר, מתרחקים מהידיים הגדולות והמנחות של ענקיות הטכנולוגיה
+    אינטרנט אוטונומי, אינטליגנטי ופתוח יותר
+    ביזור נתונים ואינטרנט שקוף ומאובטח
+    </center>
+   </TD>
+   <TD>
+    <center>
+    ישנו הבדל בשולט בנתונים בשרת המרכזי. חברות החלו לאחסן את הנתונים הללו בשרתים שלהם, כדי להשתמש באלגוריתמים וליצור תוכן טוב יותר
+   חברות כגון גוגל, פייסבוק, טוויטר ועוד
+    </center>
+   </TD>
+   <TD>
+    <center>
+    דפי אינטרנט אישיים שהוכרבו בעיקר מדפים סטטיים בשרתי אינטרנט המופעלים על-ידי ספק שירותי אינטרנט או בשירותי אירוח אתרים בחינם
+    </center>
+   </TD>
+   <TD>
+    <center>
+    שרתי אחסון הנתונים
+    </center>
    </TD>
   </TR>
   </TABLE>
@@ -818,8 +873,7 @@
  <br/>
  <br/>
  <h2>contact me</h2>
- <br/>
- <div class="container">
+ <div class="container2">
   <form action="action_page.php">
    <label for="fname">First Name:</label>
    <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -840,14 +894,13 @@
     <option value="Tel-Aviv">Tel-Aviv</option>
     <option value="Jerusalem">Jerusalem</option>
     <option value="Natanya">Natanya</option>
-    <option value="Zihron Yaakov">Zihron bfvbgvYaakov</option>
+    <option value="Zihron Yaakov">Zihron Yaakov</option>
 
    </select>
    <br/>
    <br/>
    <label for="subject">Subject:</label>
    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-   <br/>
    <br/>
    <a href="mailto:noa85magrisso@gmail.com">Send</a>
   </form>
@@ -873,10 +926,6 @@
  });
 </script>
 
-
-
-<br/>
-
 <right>
  <h2 align="right">
   תודות
@@ -886,16 +935,8 @@
   בעודה סטודנטית להנדסת תוכנה ומערכות מידע באוניברסיטת בן-גוריון
   <br/>
   <br/>
-  <br/>
-
-  <img src=with_me_2.jpeg width=560 height=320 />
-
+  <img src=with_me_2.jpeg width=460 height=260 />
  </h6>
 </right>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 </body>
 </html>

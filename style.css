@@ -5,7 +5,7 @@
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
-	height: 70px;
+	height: 66px;
 	display: inline-flex;
 }
 
@@ -15,7 +15,7 @@
 	display: block;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 12px 14px;
 	text-decoration: purple;
 }
 
@@ -27,7 +27,7 @@
 
 /* Main content */
 .main {
-	margin-top: 50px; /* Add a top margin to avoid content overlay */
+	margin-top: 40px; /* Add a top margin to avoid content overlay */
 }
 
 
@@ -43,19 +43,19 @@ body {
 h1 {
 	background-color: black;
 	border-bottom-style: dotted;
-	font-family: Gisha;
-	color: plum;
-	font-style: oblique;
+	font-family: "Calibri";
+	color: mistyrose;
 	font-optical-sizing: auto;
 	text-align: center;
+	font-size: 25px;
 
 }
 
 p {
 	font-family: Gisha;
-	font-size: 14px;
+	font-size: 12px;
 	background: lavenderblush;
-	width: 1200px;
+	width: 1100px;
 	position: center;
 	alignment: center;
 	text-align:center;
@@ -63,6 +63,8 @@ p {
 
 Table {
 	alignment: center;
+	font-size: 12px;
+	font-family: Gisha;
 }
 
 h3 {
@@ -78,7 +80,7 @@ h3 {
 	background-color: lightpink;
 	color: #333333;
 	padding: 16px;
-	font-size: 16px;
+	font-size: 14px;
 	border: none;
 	cursor: pointer;
 }
@@ -136,18 +138,28 @@ h3 {
 
 
 lang-switch {
-	font-size: 22px;
+	font-size: 12px;
 }
 
 
 h2 {
-	font-size: 30px;
-	font-style: inherit;
+	font-size: 16px;
 	font-family: Gisha;
 }
 
 
 h6 {
 	font-size: 14px;
+	font-family: Gisha;
+}
+
+
+form {
+	font-size: 13px;
+	font-family: "Arial Nova Cond";
+}
+
+h7 {
+	font-size: 20px;
 	font-family: Gisha;
 }
