@@ -138,3 +138,16 @@ h3 {
 lang-switch {
 	font-size: 22px;
 }
+
+
+h2 {
+	font-size: 30px;
+	font-style: inherit;
+	font-family: Gisha;
+}
+
+
+h6 {
+	font-size: 14px;
+	font-family: Gisha;
+}
